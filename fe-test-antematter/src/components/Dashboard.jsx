@@ -102,7 +102,7 @@ function Dashboard() {
                 </div>
 
                 <div className='pt-[2.5em] px-[3em] flex-col'>
-                    <div className='w-[100%] h-[65vh] m-auto flex justify-between'>
+                    <div className='w-[100%] h-[65vh] m-auto border flex border-white relative gap-4'>
         
                         {nfts.map((nft, index) => (
 
@@ -110,7 +110,7 @@ function Dashboard() {
                                     animate={positions[poistionIndexes[index]]}
                                     variants={positionVariants}
                                     transition={{duration: 0.5}}
-                                    style={{width: '20%', position: "absolute"}}
+                                    style={{position: 'absolute', width: "32%"}}
                                     >
                                     <ItemCard key={index} image={nft.image} name={nft.name} owner={nft.owner} mint={nft.mint} token={nft.token} />
                                 </motion.div>

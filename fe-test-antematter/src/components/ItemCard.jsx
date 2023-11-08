@@ -3,7 +3,7 @@ import React from 'react';
 const ItemCard = ({ image, name , owner, mint,token  }) => {
   
   return (
-    <div className='w-[94%] bg-[#000] rounded-[1.25rem] p-[12px] flex flex-col  '>
+    <div className='bg-[#000] rounded-[1.25rem] p-[12px] flex flex-col'>
 
       <div className='flex justify-between'>
 
